@@ -64,16 +64,40 @@
 			children = (
 				5347F1952AE3F50100AA2196 /* AppDelegate.swift */,
 				5347F1972AE3F50100AA2196 /* SceneDelegate.swift */,
-				5347F1AD2AE3FE3600AA2196 /* Character.swift */,
-				5347F1992AE3F50100AA2196 /* ViewController.swift */,
-				5347F19B2AE3F50100AA2196 /* Main.storyboard */,
-				5347F1A92AE3F64B00AA2196 /* CollectionViewCell.swift */,
-				5347F1AA2AE3F64B00AA2196 /* CollectionViewCell.xib */,
+				5347F1AF2AE4292D00AA2196 /* Model */,
+				5347F1B02AE429CB00AA2196 /* View */,
+				5347F1B12AE429EE00AA2196 /* Controller */,
 				5347F19E2AE3F50100AA2196 /* Assets.xcassets */,
 				5347F1A02AE3F50100AA2196 /* LaunchScreen.storyboard */,
 				5347F1A32AE3F50100AA2196 /* Info.plist */,
 			);
 			path = CollectionViewsSample;
+			sourceTree = "<group>";
+		};
+		5347F1AF2AE4292D00AA2196 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5347F1AD2AE3FE3600AA2196 /* Character.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5347F1B02AE429CB00AA2196 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5347F19B2AE3F50100AA2196 /* Main.storyboard */,
+				5347F1A92AE3F64B00AA2196 /* CollectionViewCell.swift */,
+				5347F1AA2AE3F64B00AA2196 /* CollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5347F1B12AE429EE00AA2196 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5347F1992AE3F50100AA2196 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

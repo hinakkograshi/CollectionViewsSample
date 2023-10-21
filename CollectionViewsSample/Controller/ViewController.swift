@@ -28,8 +28,8 @@ extension ViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CollectionViewCell", for: indexPath) as! CollectionViewCell
         cell.setUp(with: creatures[indexPath.row])
-        cell.layer.borderColor = UIColor.lightGray.cgColor // 外枠の色
-        cell.layer.borderWidth = 3.0 // 枠線の太さ
+        cell.layer.borderColor = UIColor.lightGray.cgColor
+        cell.layer.borderWidth = 3.0
         cell.layer.cornerRadius = 8.0
         return cell
     }

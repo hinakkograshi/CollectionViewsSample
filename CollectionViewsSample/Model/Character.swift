@@ -6,7 +6,6 @@
 //
 
 import UIKit
-
 struct Creature {
     let title: String
     let image: UIImage
